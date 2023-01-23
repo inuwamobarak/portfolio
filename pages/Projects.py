@@ -19,7 +19,9 @@ def add_bg_from_local(image_file):
 add_bg_from_local('images/background-2462431.jpg')
 
 #setting title
-st.title('Inuwa Mobarak Abraham')
+
+**:blue[colored]**
+st.title("**:blue[Inuwa Mobarak Abraham]**")
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
 
