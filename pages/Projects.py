@@ -16,7 +16,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('images/pexels-steve-johnson-1843717.jpg')
+add_bg_from_local('images/pexels-andreea-ch-1166643.jpg')
 
 #setting title
 st.title("Inuwa Mobarak Abraham")
