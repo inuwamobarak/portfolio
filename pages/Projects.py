@@ -21,8 +21,8 @@ with col3:
    st.image("https://static.streamlit.io/examples/owl.jpg")
 
 #adding horizontal rule
-html_text2 = '<hr>'
-st.markdown(html_text2, unsafe_allow_html=True)
+html_text2a = '<hr>'
+st.markdown(html_text2a, unsafe_allow_html=True)
 
 #next coloumns below
 
