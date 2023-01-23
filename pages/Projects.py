@@ -19,12 +19,15 @@ def add_bg_from_local(image_file):
 add_bg_from_local('images/background-2462430.jpg')
 
 #setting title
-st.title('Inuwa Mobarak Abraham') #setting title
+st.title('Inuwa Mobarak Abraham')
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
 
 st.subheader('Please find some of my Projects below')
 st.write('Below is a compilation of some of my Data Science research and projects.')
+
+st.header("Asphalt Pavement Degradation")
+st.image("images/engineer.jpg")
 
 col1, col2, col3 = st.columns(3)
 
