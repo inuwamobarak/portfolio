@@ -48,12 +48,14 @@ col1, col2, col3 = st.columns([4,6,1])
 with col1:
  image = Image.open('images/IMG_20221017_170620_857.jpg')
  st.image(image, caption='Inuwa Mobarak Abraham')
- #st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
     
 with col2:
  st.title("Data Science Portfolio")
  st.write("According to data from the BCG-WEF project report, 72% of manufacturing organizations use advanced data analytics to boost efficiency.")
-    
+ html_text2 = '<hr>'
+ st.markdown(html_text2, unsafe_allow_html=True)
+ st.write("According to data from the BCG-WEF project report, 72% of manufacturing organizations use advanced data analytics to boost efficiency.")
+
 with col3:
  st.write("")
 html_text2 = '<hr>'
