@@ -2,10 +2,14 @@ import streamlit as st
 st.title('Inuwa Mobarak Abraham') #setting title
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
-st.subheader('(Please fill in the Employee details accordingly)')
-st.write('This is a prototype for predicting employee attrition using machine learning and also using cloud infrastructure')
 
 
+
+
+
+
+st.subheader('Please find some of my Projects below')
+st.write('Below is a compilation of some of my Data Science research and projects.')
 
 col1, col2, col3 = st.columns(3)
 
