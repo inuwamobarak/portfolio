@@ -23,13 +23,13 @@ def add_logo():
         """
         <style>
             [data-testid="stSidebarNav"] {
-                background-image: url(http://placekitten.com/200/200);
+                background-image: url(https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU);
                 background-repeat: no-repeat;
                 padding-top: 120px;
                 background-position: 20px 20px;
             }
             [data-testid="stSidebarNav"]::before {
-                content: "My Company Name";
+                content: "Inuwa Mobarak";
                 margin-left: 20px;
                 margin-top: 20px;
                 font-size: 30px;
@@ -43,7 +43,7 @@ def add_logo():
 add_logo()
 
 #setting title
-st.title("Inuwa Mobarak Abraham")
+st.title("My Portfolio")
 
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
