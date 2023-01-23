@@ -42,9 +42,6 @@ def add_logo():
     )
 add_logo()
 
-#setting title
-st.title("My Portfolio")
-
 #adding header image
 col1, col2, col3 = st.columns([1,6,1])
 with col1:
@@ -55,6 +52,9 @@ with col2:
     
 with col3:
  st.write("")
+
+#setting title
+st.title("My Portfolio")
     
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
