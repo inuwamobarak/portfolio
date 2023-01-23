@@ -43,12 +43,12 @@ def add_logo():
 add_logo()
 
 #adding header image
-col1, col2, col3 = st.columns([1,6,1])
+col1, col2, col3 = st.columns([4,6,1])
 with col1:
- st.image('images/rsz_bg4.png')
+ st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
     
 with col2:
- st.write("")
+ st.write("Data Science Portfolio")
     
 with col3:
  st.write("")
