@@ -18,7 +18,6 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('images/pexels-andreea-ch-1166643.jpg')
 
-
 def add_logo():
     st.markdown(
         """
@@ -41,8 +40,7 @@ def add_logo():
         """,
         unsafe_allow_html=True,
     )
-
-
+add_logo()
 
 #setting title
 st.title("Inuwa Mobarak Abraham")
