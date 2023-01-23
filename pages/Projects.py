@@ -19,8 +19,6 @@ def add_bg_from_local(image_file):
 add_bg_from_local('images/circuit-board-1607174_1920.jpg')
 
 #setting title
-
-**:blue[colored]**
 st.markdown("**:blue[Inuwa Mobarak Abraham]**")
 st.markdown(body, unsafe_allow_html=False)
 
