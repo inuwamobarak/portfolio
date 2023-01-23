@@ -18,6 +18,8 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('images/bg2.jpg')
 
+#setting title
+st.title('Inuwa Mobarak Abraham')
 
 #setting columns
 tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
