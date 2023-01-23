@@ -48,7 +48,7 @@ with col1:
  st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
     
 with col2:
- st.write("Data Science Portfolio")
+ st.title("Data Science Portfolio")
     
 with col3:
  st.write("")
