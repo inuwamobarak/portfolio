@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+from PIL import Image
 
 #setting background
 def add_bg_from_local(image_file):
@@ -45,7 +46,9 @@ add_logo()
 #adding header image
 col1, col2, col3 = st.columns([4,6,1])
 with col1:
- st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
+ image = Image.open('sunrise.jpg')
+ st.image(image, caption='Sunrise by the mountains')
+ #st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
     
 with col2:
  st.title("Data Science Portfolio")
@@ -53,16 +56,13 @@ with col2:
     
 with col3:
  st.write("")
-    
-html_text2 = '<hr>'
-st.markdown(html_text2, unsafe_allow_html=True)
-
-
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
 
 st.subheader('Please find some of my Projects below')
 st.write('Below is a compilation of some of my Data Science research and projects.')
+html_text2 = '<hr>'
+st.markdown(html_text2, unsafe_allow_html=True)
 
 st.header("Asphalt Pavement Degradation")
 st.write('It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair')
