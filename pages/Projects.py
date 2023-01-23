@@ -27,14 +27,7 @@ st.subheader('Please find some of my Projects below')
 st.write('Below is a compilation of some of my Data Science research and projects.')
 
 st.header("Asphalt Pavement Degradation")
-txt = st.text('Text to analyze', '''
-    It was the best of times, it was the worst of times, it was
-    the age of wisdom, it was the age of foolishness, it was
-    the epoch of belief, it was the epoch of incredulity, it
-    was the season of Light, it was the season of Darkness, it
-    was the spring of hope, it was the winter of despair, (...)
-    ''')
-st.write(txt)
+st.write('It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair')
 st.image("images/engineer.jpg")
 
 st.header("Colombian Fake Banknotes Detection")
