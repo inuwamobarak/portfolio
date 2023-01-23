@@ -10,7 +10,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Asphalt Pavement Degradation")
-   st.image("https://static.streamlit.io/examples/cat.jpg")
+   st.image("images/engineer.jpg")
 
 with col2:
    st.header("Colombian Fake Banknotes Detection")
