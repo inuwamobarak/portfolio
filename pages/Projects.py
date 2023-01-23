@@ -3,11 +3,6 @@ st.title('Inuwa Mobarak Abraham') #setting title
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
 
-
-
-
-
-
 st.subheader('Please find some of my Projects below')
 st.write('Below is a compilation of some of my Data Science research and projects.')
 
@@ -25,6 +20,9 @@ with col3:
    st.header("Employee Attrition Prediction")
    st.image("https://static.streamlit.io/examples/owl.jpg")
 
+#adding horizontal rule
+html_text2 = '<hr>'
+st.markdown(html_text2, unsafe_allow_html=True)
 
 #next coloumns below
 
