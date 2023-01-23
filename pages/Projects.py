@@ -16,7 +16,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('images/background-2462431.jpg')
+add_bg_from_local('images/circuit-board-1607174_1920.jpg')
 
 #setting title
 
