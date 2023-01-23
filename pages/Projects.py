@@ -46,7 +46,7 @@ add_logo()
 #adding header image
 col1, col2, col3 = st.columns([4,6,1])
 with col1:
- image = Image.open('images/rsz_bg4.png'')
+ image = Image.open('images/rsz_bg4.png')
  st.image(image, caption='Sunrise by the mountains')
  #st.image('https://media.licdn.com/dms/image/D4D03AQGbIvI6rSK-MA/profile-displayphoto-shrink_200_200/0/1667341916049?e=1680134400&v=beta&t=9A0bwgTzgt2zAaH8kxA6-uu6GShheBRjf1JUESJQDFU')
     
