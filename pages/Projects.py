@@ -14,7 +14,7 @@ with col1:
 
 with col2:
    st.header("Colombian Fake Banknotes Detection")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
+   st.image("images/bg2.jpg")
 
 with col3:
    st.header("Employee Attrition Prediction")
