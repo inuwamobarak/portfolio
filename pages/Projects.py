@@ -1,7 +1,5 @@
 import streamlit as st
-
-#setting title
-st.title('Inuwa Mobarak Abraham')
+st.title('Inuwa Mobarak Abraham') #setting title
 
 col1, col2, col3 = st.columns(3)
 
