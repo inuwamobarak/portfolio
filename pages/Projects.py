@@ -49,9 +49,10 @@ with col1:
     
 with col2:
  st.title("Data Science Portfolio")
+ st.write("According to data from the BCG-WEF project report, 72% of manufacturing organizations use advanced data analytics to boost efficiency.")
     
 with col3:
- st.write("Hello my dear friends")
+ st.write("")
     
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
