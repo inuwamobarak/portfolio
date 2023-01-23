@@ -51,10 +51,7 @@ with col2:
  st.title("Data Science Portfolio")
     
 with col3:
- st.write("")
-
-#setting title
-st.title("My Portfolio")
+ st.write("Hello my dear friends")
     
 html_text2 = '<hr>'
 st.markdown(html_text2, unsafe_allow_html=True)
