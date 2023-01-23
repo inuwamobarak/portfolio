@@ -18,7 +18,7 @@ with col2:
 
 with col3:
    st.header("Employee Attrition Prediction")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+   st.image("images/rsz_bg4.png")
 
 #adding horizontal rule
 html_text2a = '<hr>'
