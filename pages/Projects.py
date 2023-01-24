@@ -56,8 +56,6 @@ with col2:
  
 with col3:
  st.write("")
-html_text2 = '<hr>'
-st.markdown(html_text2, unsafe_allow_html=True)
 
 st.subheader('Please find some of my Projects below')
 st.write('Below is a compilation of some of my Data Science research and projects.')
