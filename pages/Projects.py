@@ -43,6 +43,9 @@ def add_logo():
     )
 add_logo()
 
+ html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> Welcome to my Portfolio Website</p>'
+    st.markdown(html_text, unsafe_allow_html=True)
+
 #adding header image
 col1, col2, col3 = st.columns([3,6,1])
 with col1:
