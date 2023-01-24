@@ -44,7 +44,7 @@ def add_logo():
 add_logo()
 
 #adding header image
-col1, col2, col3 = st.columns([4,6,1])
+col1, col2, col3 = st.columns([3,6,1])
 with col1:
  image = Image.open('images/IMG_20221017_170620_857.jpg')
  st.image(image, caption='Inuwa Mobarak Abraham')
@@ -53,9 +53,7 @@ with col2:
  st.title("Data Science Portfolio")
  st.write("According to data from the BCG-WEF project report, 72% of manufacturing organizations use advanced data analytics to boost efficiency.")
  html_text2 = '<hr>'
- st.markdown(html_text2, unsafe_allow_html=True)
- st.write("According to data from the BCG-WEF project report, 72% of manufacturing organizations use advanced data analytics to boost efficiency.")
-
+ 
 with col3:
  st.write("")
 html_text2 = '<hr>'
