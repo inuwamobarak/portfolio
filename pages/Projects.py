@@ -46,7 +46,7 @@ add_logo()
 #adding header image
 col1, col2, col3 = st.columns([3,6,1])
 with col1:
- image = Image.open('images/IMG_20221017_170620_857.jpg')
+ image = Image.open('images/dp2.jpg')
  st.image(image, caption='Inuwa Mobarak Abraham')
     
 with col2:
